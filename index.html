@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Baper Bank</title>
+  <!-- TailWindCSS -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <Header>
+    <h1 class="text-5xl text-center mt-16">Welcome to my <span class="font-semibold text-red-400"> Baper Bank</span></h1>
+  </Header>
+  <main>
+    <section class="bg-blue-400 w-3/4 mx-auto p-8 mt-8 rounded">
+      <h3 class="text-2xl font-semibold mb-4">Please Login</h3>
+      <div>
+        <input id="user-email" class="border-2 block border-red-800 rounded mb-2 px-3 py-1 w-1/2" type="text" placeholder="Your Email">
+        <input id="user-password" class="border-2 block border-red-800 rounded px-3 w-1/2 py-1" type="password" placeholder="Password">
+        <button id="login-submit" class="bg-yellow-600 px-4 py-2 my-2 rounded text-white text-medium">Submit</button>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- external Js -->
+  <script src="js/bank.js"></script>
+</body>
+</html>
